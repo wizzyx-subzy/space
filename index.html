@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Gaming Website"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./index.js">
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="brand">
+             <h1 class="main">S.P.A.C.E</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="login.html">Login</a>
+                  </li>  
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <img src="../images/blur-close-up-controller-159393.jpg">
+            <h1 class="text-1">Gaming experience for you<br/>
+              Get Any Games For Free
+            </h1>
+             <p class="text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Eligendi labore impedit veritatis laboriosam obcaecati magnam quasi molestiae voluptatibus amet.<br>
+                  Inventore dolorem eum sapiente quis iure laborum iusto alias adipisci obcaecati.</p>
+                          <form>
+            <button type="submit">SUBSCRIBE</button>
+        </form>
+        </div>
+    </section>
+    <section id="search">
+        <div class="container-3">
+            <h1>
+                Search for the game you want!!!
+            </h1>
+            <form>
+                <input type="Search" placeholder="Enter game">
+                <button type="submit" class="button-1">search</button>
+            </form>
+        </div>
+    </section>
+    <section id="boxes">
+        <div class="container-4">
+            <div class="box">
+                    <img src="C:\Users\olasubomi\Desktop\website\williams\images\affordable.png">
+                <h3>
+                    AFFORDABLE
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Quod optio aspernatur dolorem omnis eligendi aperiam adipisci repellat quas quis quasi illo, vero veritatis?
+                     Dignissimos molestias tempora facere sunt repudiandae iusto!</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\olasubomi\Desktop\website\williams\images\secure.png">
+                <h3>SECURE</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum, libero eveniet nostrum cum ea corrupti vel labore possimus, 
+                    distinctio itaque quod optio, laborum error accusamus temporibus mollitia odio doloremque!
+                </p>
+            </div>
+            <div class="box">
+                <h3>FREE FOR ALL</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Blanditiis, accusantium! Assumenda culpa eius, corporis fuga quasi maxime blanditiis porro minus, commodi soluta inventore?
+                     Sint sed aperiam accusantium ratione suscipit eveniet.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>SPACE entertainments, &copy; 2019</p>
+    </footer>
+ <script rel="stylesheet" href="text/javascript">
+     TweenLite.set('.text-1, .text-2',{x:'-101%'})
+
+var lines = new TimelineMax({repeat:3.5, yoyo:true, repeatDelay:2})
+.to('.text-1',1,{x:'0%'})
+.to('.text-2',1,{x:'0%'}, "+=0.1")
+ </script>
+</body>
+</html>
